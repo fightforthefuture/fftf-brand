@@ -55,7 +55,8 @@
 
 .subheadline {
   display: block;
-  width: 350px;
+  max-width: 350px;
+  width: 100%;
   margin-top: 48px;
   margin-right: auto;
   margin-left: auto;
@@ -576,7 +577,9 @@ html.fftf-mod-js *[data-ix="navbarhidden"] {
     margin-left: auto;
   }
   .guideimage {
-    width: 295px;
+    max-width: 295px;
+    width: 100%;
+    height: auto;
     margin-top: 20px;
   }
   .textalpha {
